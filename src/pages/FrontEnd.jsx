@@ -90,11 +90,20 @@ return(
       {url:'https://pnpm.io/', text:'PNPM'},
    ]} />
 
-   <LeftContainer text='' links={[
-      {url:'https://www.cloudflare.com/en-gb/learning/ssl/what-is-https/', text:'What is HTTPS'},
-      {url:'https://www.youtube.com/watch?v=hExRDVZHhig&ab_channel=PowerCertAnimatedVideos', text:'SSL'},
-      {url:'https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS', text:'CORS'},
+   <LeftContainer text='Modern CSS' links={[
+      {url:'https://styled-components.com/', text:'Styled Components'},
+      {url:'https://medium.com/@ralph1786/using-css-modules-in-react-app-c2079eadbb87', text:'CSS Modules'},
+      {url:'https://www.youtube.com/watch?v=SM5uVbfgfdo&ab_channel=codedamn', text:'Styled JSX'},
+      {url:'https://tailwindcss.com/', text:'Tailwind'},
+      {url:'https://mantine.dev/', text:'Mantine'},
+      {url:'https://mui.com/', text:'Material UI'},
    ]}/>
+
+   <RightContainer text='Authentication Strategies' links={[
+      {url:'https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html', text:'NPM'},
+      {url:'https://classic.yarnpkg.com/en/docs/getting-started', text:'YARN'},
+      {url:'https://pnpm.io/', text:'PNPM'},
+   ]} />
 
 </div>
 </>

@@ -13,7 +13,7 @@ export default function LeftContainer({links, text}){
 return(
     <div className="containerLeft">
     <div>
-          {renderData}
+        {renderData}
     </div>
     <hr />
     <span>{text}</span> 
