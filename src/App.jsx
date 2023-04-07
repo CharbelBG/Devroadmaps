@@ -25,7 +25,8 @@ return(
 
     <div className='footer'>
         <hr/>
-    <Link to='https://github.com/CharbelBG' target={'_blank'} >Created by Charbel Bou Ghazalé with ❤</Link>
+    <Link to='https://github.com/CharbelBG' target={'_blank'} >Created by Charbel Bou Ghazalé</Link>
+    <small>and marie Therese</small>
     </div> 
 </>
 )

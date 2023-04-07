@@ -71,10 +71,33 @@ return(
     ]} />
 
     <LeftContainer text='' links={[
-        {url:'', text:''},
-        {url:'', text:''},
-        {url:'', text:''},
+        {url:'https://mariadb.org/', text:'MariaDB'},
+        {url:'https://www.guru99.com/mariadb-vs-mysql.html', text:'Maria vs SQL'},
+        {url:'https://www.youtube.com/watch?v=_AMj02sANpI&ab_channel=developwithAhmadMohey', text:'Maria course'},
     ]} />
+
+    <RightContainer text='' links={[
+        {url:'https://learn.microsoft.com/en-us/sql/sql-server/tutorials-for-sql-server-2016?view=sql-server-ver15' , text:'MS SQL'},
+        {url:'https://www.youtube.com/watch?v=-EPMOaV7h_Q&ab_channel=edureka%21' , text:'MS SQL course'},
+    ]} />
+
+    <LeftContainer text='' links={[
+        {url:'https://www.oracle.com/database/', text:'Oracle'},
+        {url:'https://www.youtube.com/watch?v=ObbNGhcxXJA', text:'Oracle SQL'},
+        {url:'https://docs.oracle.com/en/database/index.html', text:'Docs'},
+    ]} />
+
+    <RightContainer text='NoSQL Databases' links={[
+        {url:'https://www.mongodb.com/' , text:'MongoDb'},
+        {url:'https://www.mongodb.com/docs/' , text:'Mongo Docs'},
+        {url:'https://mongoplayground.net/' , text:'MongoDB sandbox'},
+    ]} />
+
+    <LeftContainer text='' links={[
+        {url:'https://firebase.google.com/', text:'Firebase'},
+        {url:'https://www.youtube.com/watch?v=fgdpvwEWJ9M&ab_channel=freeCodeCamp.org', text:'Firebase course'},
+    ]} />
+
 
 </div>
 )
