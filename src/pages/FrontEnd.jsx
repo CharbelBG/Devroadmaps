@@ -86,10 +86,10 @@ return(
       {url:'https://www.solidjs.com/', text:'Solid'},
    ]}/>
 
-   <RightContainer text='Package managers' links={[
-      {url:'https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html', text:'NPM'},
-      {url:'https://classic.yarnpkg.com/en/docs/getting-started', text:'YARN'},
-      {url:'https://pnpm.io/', text:'PNPM'},
+   <RightContainer text='Testing' links={[
+      {url:'https://jestjs.io/', text:'Jest'},
+      {url:'https://testing-library.com/docs/react-testing-library/intro/', text:'React-Testing'},
+      {url:'https://www.cypress.io/', text:'Cypress'},
    ]} />
 
    <LeftContainer text='Modern CSS' links={[
