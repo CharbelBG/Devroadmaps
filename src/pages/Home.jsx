@@ -16,8 +16,8 @@ return(
     </p>
 
     <div className='homeRoadMaps'>
-        <span onClick={()=>{nav('/frontend')}}>Frontend developer</span> 
-        <span>Backend developer</span>    
+        <span onClick={()=>{nav('/frontend')}} >Frontend developer</span> 
+        <span onClick={()=>{nav('/backend')}} >Backend developer</span>    
         <span>Devops</span> 
     </div>
 

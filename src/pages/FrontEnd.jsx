@@ -7,8 +7,10 @@ export default function FrontEnd(){
 return(
 <>
 <div className="frontEndContainer">
-    {/* animate the keyword, on loading, random letters */}
-    FrontEnd developer
+   {/* animate the keyword, on loading, random letters */}
+   <div className="sectionHeader" >
+      FrontEnd developer
+   </div>
       
    <LeftContainer text='Internet' links={[
       {url:'https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work', text:'How it works?'},
@@ -100,9 +102,11 @@ return(
    ]}/>
 
    <RightContainer text='Authentication Strategies' links={[
-      {url:'https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html', text:'NPM'},
-      {url:'https://classic.yarnpkg.com/en/docs/getting-started', text:'YARN'},
-      {url:'https://pnpm.io/', text:'PNPM'},
+      {url:'https://roadmap.sh/guides/basic-authentication', text:'Basic'},
+      {url:'https://roadmap.sh/guides/session-authentication', text:'Session'},
+      {url:'https://roadmap.sh/guides/token-authentication', text:'Token'},
+      {url:'https://roadmap.sh/guides/jwt-authentication', text:'JWt'},
+      {url:'https://roadmap.sh/guides/oauth', text:'OAuth'},
    ]} />
 
 </div>
