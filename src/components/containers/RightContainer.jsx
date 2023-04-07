@@ -11,12 +11,13 @@ export default function RightContainer({links, text}){
     });
 
 return(
+    
 <div className="containerRight">
     <div>
         {renderData}
     </div>
     <hr />
-    <span>{text}</span>
+    {text === '' ? <span className='noText'></span> : <span>{text}</span> }
 </div>
 )
 }

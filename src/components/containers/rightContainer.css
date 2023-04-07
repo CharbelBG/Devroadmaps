@@ -64,3 +64,7 @@
     z-index: 1;
     background-color: black;
 }
+.containerRight .noText{
+    padding: .5rem;
+    border-radius: 50%;
+}

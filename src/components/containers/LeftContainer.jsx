@@ -9,14 +9,13 @@ export default function LeftContainer({links, text}){
             {element.text}
         </Link>
     });
-
 return(
     <div className="containerLeft">
     <div>
         {renderData}
     </div>
     <hr />
-    <span>{text}</span> 
+    {text === '' ? <span className='noText'></span> :<span>{text}</span> }
  </div> 
 )
 }
