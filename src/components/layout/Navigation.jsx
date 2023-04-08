@@ -11,7 +11,7 @@ return(
 <div className='navigationBar'>
 
     <span onClick={()=>nav('/')}>Home</span>
-    <span>Tech Stacks</span>
+    <span onClick={()=>nav('/techstacks')}>Tech Stacks</span>
 
 </div>
 )

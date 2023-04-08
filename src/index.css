@@ -36,6 +36,8 @@ body{
 .footer link, .footer a{
   color: white;
   text-decoration: none;
+  width: fit-content;
+  margin: auto;
 }
 
 .sectionHeader{
