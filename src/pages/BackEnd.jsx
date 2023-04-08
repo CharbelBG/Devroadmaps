@@ -19,7 +19,7 @@ return(
       {url:'https://www.youtube.com/watch?v=htbY9-yggB0&ab_channel=Pickaweb.co.uk', text:'What is hosting?'},
     ]} />
 
-   <RightContainer text='' links={[
+    <RightContainer text='' links={[
       {url:'https://web.dev/howbrowserswork/', text:'How browsers work'},
       {url:'https://www.techtarget.com/searchwindowsserver/definition/command-line-interface-CLI#:~:text=A%20command%2Dline%20interface%20(CLI)%20is%20a%20text%2D,interfaces%20and%20character%20user%20interfaces.', text:'what is a CLI'},
     ]} />
