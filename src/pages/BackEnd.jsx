@@ -98,6 +98,12 @@ return(
         {url:'https://www.youtube.com/watch?v=fgdpvwEWJ9M&ab_channel=freeCodeCamp.org', text:'Firebase course'},
     ]} />
 
+    <RightContainer text='Advanced DB concepts' links={[
+        {url:'' , text:''},
+        {url:'' , text:''},
+        {url:'' , text:''},
+        {url:'' , text:''},
+    ]} />
 
 </div>
 )

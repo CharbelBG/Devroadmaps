@@ -82,3 +82,56 @@
     padding: .5rem;
     border-radius: 50%;
 }
+
+@media screen and (max-width:1125px){
+    .containerLeft{
+        width: 50%;
+        padding-right: 1rem;
+        font-size: .9rem;
+    }
+}
+
+@media screen and (max-width:650px){
+    .containerLeft{
+        padding: 0;
+        flex-direction: column-reverse;
+        width: 100%;
+        gap: 1rem;
+        position: relative;
+    }
+    .containerLeft::before{
+        position: absolute;
+        top: 10px;
+        right: 0;
+        left: 0;
+        margin: auto;
+        z-index: -1;
+        width: 0;
+        height: 30%;
+    }
+    .containerLeft::after{
+        content: '';
+        width: 1px;
+        height: 30%;
+        position: absolute;
+        top: -115%;
+        right: 0;
+        left: 0;
+    }
+    .containerLeft div:hover + hr{
+        border:0;
+        transition: 0s;
+    }
+    .containerLeft hr{
+        width: 0;
+        border: none;
+    }
+    .containerLeft div{
+        width: 90%;
+        align-items: center;
+        gap: 1rem;
+        z-index: 1;
+        background-color: black;
+    }
+  
+}

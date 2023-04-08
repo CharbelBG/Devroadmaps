@@ -21,3 +21,9 @@
     transform: scale(105%);
     transition: color .2s, border .4s, transform .2s;
 }
+
+@media screen and (max-width:650px){
+    .frontEndContainer{
+        gap: 2rem;
+    }
+}

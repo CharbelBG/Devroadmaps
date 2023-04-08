@@ -42,7 +42,6 @@
     display: flex;
     flex-direction: column;   
     transition: border .5s;
-
 }
 .containerRight div:hover{
     border: 1px solid lime;
@@ -80,4 +79,55 @@
 .containerRight .noText{
     padding: .5rem;
     border-radius: 50%;
+}
+
+@media screen and (max-width:1125px) {
+    .containerRight{
+        width: 50%;
+        padding-left: 1rem;
+        font-size: .9rem;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .containerRight{
+        padding: 0;
+        flex-direction: column-reverse;
+        width: 100%;
+        gap: 1rem;
+    }
+    .containerRight::before{
+        position: absolute;
+        top: 10px;
+        right: 0;
+        left: 0;
+        margin: auto;
+        z-index: -1;
+        width: 0;
+        height: 30%;
+    }
+    .containerRight::after{
+        content: '';
+        width: 1px;
+        height: 40%;
+        position: absolute;
+        top: -30%;
+        right: 0;
+        left: 0;
+    }
+    .containerRight div:hover + hr{
+        border:0;
+        transition: 0s;
+    }
+    .containerRight hr{
+        width: 0;
+        border: none;
+    }
+    .containerRight div{
+        width: 90%;
+        align-items: center;
+        gap: 1rem;
+        z-index: 1;
+        background-color: black;
+    }
 }
