@@ -7,18 +7,22 @@ export default function BackEnd(){
 
 return(
 <div className='backendContainer'>
+    
+    <div className="sectionHeader">
+        Backend developer
+    </div>
 
     <LeftContainer text='Internet' links={[
       {url:'https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/How_does_the_Internet_work', text:'How it works?'},
       {url:'https://www.cloudflare.com/en-gb/learning/ddos/glossary/hypertext-transfer-protocol-http/', text:'What is HTTP'},
       {url:'https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_domain_name', text:'What is a DNS?'},
       {url:'https://www.youtube.com/watch?v=htbY9-yggB0&ab_channel=Pickaweb.co.uk', text:'What is hosting?'},
-   ]} />
+    ]} />
 
    <RightContainer text='' links={[
       {url:'https://web.dev/howbrowserswork/', text:'How browsers work'},
       {url:'https://www.techtarget.com/searchwindowsserver/definition/command-line-interface-CLI#:~:text=A%20command%2Dline%20interface%20(CLI)%20is%20a%20text%2D,interfaces%20and%20character%20user%20interfaces.', text:'what is a CLI'},
-   ]} />
+    ]} />
 
     <LeftContainer text='Learn a language' links={[
         {url:'https://www.w3schools.com/js/', text:'JavaScript'},
@@ -35,7 +39,7 @@ return(
       {url:'https://git-scm.com/docs', text:'GIT docs'},
       {url:'https://www.youtube.com/watch?v=w3jLJU7DT5E&ab_channel=GitHub', text:'What is Github?'},
       {url:'https://www.youtube.com/watch?v=wpISo9TNjfU&ab_channel=IBMTechnology', text:'GIT vs Github'},
-   ]} />
+    ]} />
 
     <LeftContainer text='Terminal Usage' links={[
         {url:'https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line', text:'CLI'},
@@ -98,11 +102,53 @@ return(
         {url:'https://www.youtube.com/watch?v=fgdpvwEWJ9M&ab_channel=freeCodeCamp.org', text:'Firebase course'},
     ]} />
 
-    <RightContainer text='Advanced DB concepts' links={[
-        {url:'' , text:''},
-        {url:'' , text:''},
-        {url:'' , text:''},
-        {url:'' , text:''},
+    <RightContainer text='Scaling DB' links={[
+        {url:'https://www.freecodecamp.org/news/database-indexing-at-a-glance-bb50809d48bd/' , text:'Indexes'},
+        {url:'https://www.youtube.com/watch?v=fUrKt-AQYtE&ab_channel=intricity101' , text:'Replication'},
+        {url:'https://stackoverflow.blog/2022/03/14/how-sharding-a-database-can-make-it-faster/' , text:'Sharding'},
+        {url:'https://www.bmc.com/blogs/cap-theorem/' , text:'CAP Theorem'},
+    ]} />
+
+    <LeftContainer text='APIs' links={[
+        {url:'https://www.codecademy.com/article/what-is-rest', text:'REST'},
+        {url:'https://jsonapi.org/', text:'JSON'},
+        {url:'https://www.w3schools.com/xml/xml_soap.asp', text:'SOAP'},
+        {url:'https://graphql.org/', text:'GraphQL'},
+    ]} />
+
+    <RightContainer text='Caching' links={[
+        {url:'https://www.youtube.com/watch?v=G1rOthIU-uo&ab_channel=Fireship', text:'Redis'},
+        {url:'https://www.cloudflare.com/en-ca/learning/cdn/what-is-a-cdn/', text:'CDN'},
+    ]} />
+
+    <LeftContainer text='Testing' links={[
+        {url:'https://www.guru99.com/integration-testing.html', text:'Integration'},
+        {url:'https://www.guru99.com/unit-testing-guide.html', text:'Unit'},
+        {url:'https://www.guru99.com/functional-testing.html', text:'Functional'},
+    ]} />
+
+    <RightContainer text='CI/CD' links={[
+        {url:'https://www.youtube.com/watch?v=scEDHsr3APg&ab_channel=Fireship', text:'DevOps'},
+        {url:'https://www.youtube.com/watch?v=nyKZTKQS_EQ&ab_channel=theroadmap', text:'Github Actions'},
+        {url:'https://about.gitlab.com/topics/ci-cd/', text:'CI/CD'},
+        {url:'https://thenewstack.io/3-ways-to-use-automation-in-ci-cd-pipelines/', text:'Pipelines'},
+    ]} />
+
+    
+    <LeftContainer text='Design Principles' links={[
+        {url:'https://github.com/kamranahmedse/design-patterns-for-humans', text:'Design patterns'},
+        {url:'https://matfrs2.github.io/RS2/predavanja/literatura/Avram%20A,%20Marinescu%20F.%20-%20Domain%20Driven%20Design%20Quickly.pdf', text:'Domain Driven Design'},
+        {url:'https://www.guru99.com/test-driven-development.html', text:'TDD'},
+        {url:'https://martinfowler.com/eaaDev/EventSourcing.html', text:'Event Sourcing'},
+    ]} />
+
+    <RightContainer text='Architectural Patterns' links={[
+        {url:'https://microservices.io/patterns/monolithic.html', text:'Monolithic'},
+        {url:'https://microservices.io/patterns/microservices.html', text:'Microservices'},
+        {url:'http://docs.oasis-open.org/soa-rm/soa-ra/v1.0/soa-ra.html', text:'SOA'},
+        {url:'https://www.youtube.com/watch?v=W_VV2Fx32_Y&ab_channel=Fireship', text:'Serverless'},
+        {url:'https://www.nginx.com/blog/what-is-a-service-mesh/', text:'Service Mesh'},
+        {url:'https://12factor.net/', text:'Twelve-Factor Apps'},
     ]} />
 
 </div>

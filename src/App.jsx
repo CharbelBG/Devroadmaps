@@ -8,8 +8,8 @@ const BackEnd = lazy(()=> import('./pages/BackEnd'));
 export default function App(){
 
 return(
-    <>
-    <Navigation />
+<>
+<Navigation />
     <Suspense>
 
     <Routes>
@@ -25,8 +25,8 @@ return(
 
     <div className='footer'>
         <hr/>
-    <Link to='https://github.com/CharbelBG' target={'_blank'} >Created by Charbel Bou Ghazalé</Link>
-    <small>and marie Therese</small>
+        <Link to='https://github.com/CharbelBG' target={'_blank'} >Created by Charbel Bou Ghazalé</Link>
+        <Link to='https://www.instagram.com/theresa_abiaad/' target={'_blank'}>and Marie Therese Abiaad</Link>  
     </div> 
 </>
 )
