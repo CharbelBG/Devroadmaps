@@ -4,6 +4,7 @@ const Home = lazy(()=> import('./pages/Home'));
 const Navigation = lazy(()=> import('./components/layout/Navigation'));
 const FrontEnd = lazy(()=> import('./pages/FrontEnd'));
 const BackEnd = lazy(()=> import('./pages/BackEnd'));
+const TechStacks = lazy(()=> import('./pages/TechStacks'));
 
 export default function App(){
 
@@ -16,7 +17,7 @@ return(
         <Route path='/' element={<Home/>} /> 
         <Route path='/frontend' element={<FrontEnd/>} />
         <Route path='/backend' element={<BackEnd />} />
-
+        <Route path='/techstacks' element={<TechStacks />} />
 
         <Route path='*' element={<>Redirecting</>} /> 
      

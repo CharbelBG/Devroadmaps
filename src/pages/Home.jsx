@@ -9,16 +9,15 @@ export default function Home(){
 return(
 <div className='home'>
     <h1>It's all about the mindset</h1>
-    
     <p>
         Embracing a <span>trial and error</span> mentality involves a willingness 
         to <span>work hard</span>, learn continuously and <span> persevere</span> through challenges.
     </p>
 
-    <div className='homeRoadMaps'>
-        <span onClick={()=>{nav('/frontend')}} >Frontend developer</span> 
-        <span onClick={()=>{nav('/backend')}} >Backend developer</span>    
-        <span>Devops</span> 
+    <div className='homeRoadMaps' >
+        <span onClick={()=>{nav('/frontend')}}> Frontend developer</span>
+        <span onClick={()=>{nav('/backend')}} > Backend developer</span>
+        <span onClick={()=>{nav('/techstacks')}}> Tech Stacks</span>
     </div>
 
 

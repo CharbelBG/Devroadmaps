@@ -38,3 +38,11 @@
     transform: scale(105%);
     transition: transform.2s , border .5s, color .2s;
 }
+@media screen and (max-width:650px) {
+    .home{
+        width: 90%;
+    }
+    .homeRoadMaps{
+        flex-direction: column;
+    }
+}

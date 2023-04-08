@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
 }
 
 :root{
@@ -13,13 +15,21 @@ body{
   background-color: black;
 }
 
+.sectionWrapper{   
+  margin-top: 2rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
 .footer{
   margin: 7rem 0 1rem 0;
   display: flex;
   flex-direction: column;
   gap: 2rem;
   color: white;
-  font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
   text-align: center;
 }
@@ -29,6 +39,7 @@ body{
 }
 
 .sectionHeader{
+  color: white;
   border: 1px solid white;
   background-color: black;
   width: fit-content;
@@ -43,4 +54,10 @@ body{
   border: 1px solid var(--orangeColor);
   transform: scale(105%);
   transition: color .2s, border .4s, transform .2s;
+}
+
+@media screen and (max-width:650px){
+  .sectionWrapper{
+      gap: 2rem;
+  }
 }

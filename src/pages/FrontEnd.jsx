@@ -1,5 +1,4 @@
 import React from "react";
-import './frontEnd.css';
 import LeftContainer from "../components/containers/LeftContainer";
 import RightContainer from "../components/containers/RightContainer";
 export default function FrontEnd(){

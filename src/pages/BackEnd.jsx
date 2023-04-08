@@ -1,12 +1,11 @@
 import {React} from 'react';
-import './backend.css';
 import RightContainer from '../components/containers/RightContainer';
 import LeftContainer from '../components/containers/LeftContainer';
 
 export default function BackEnd(){
 
 return(
-<div className='backendContainer'>
+<div className='sectionWrapper'>
     
     <div className="sectionHeader">
         Backend developer
