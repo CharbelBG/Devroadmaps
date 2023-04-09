@@ -5,16 +5,22 @@
   font-family: 'Courier New', Courier, monospace;
   color: white;
 }
-
-:root{
-    --orangeColor: rgb(255, 77, 0);
+*::selection{
+  background: green;
 }
 
+:root{
+  --orangeColor: rgb(255, 77, 0);
+}
 
 body{
   background-color: black;
 }
-
+p{
+  text-align: center;
+  margin: 2rem auto;
+  width: 70%;
+}
 .sectionWrapper{   
   margin-top: 2rem;
   color: white;
