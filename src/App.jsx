@@ -19,7 +19,7 @@ return(
         <Route path='/backend' element={<BackEnd />} />
         <Route path='/techstacks' element={<TechStacks />} />
 
-        <Route path='*' element={<>Redirecting</>} /> 
+        <Route path='*' element={<>Page not Found -_-</>} /> 
      
     </Routes>
     </Suspense>
