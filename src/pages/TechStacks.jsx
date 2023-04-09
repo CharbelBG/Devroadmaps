@@ -50,8 +50,8 @@ return(
 
         <div className='stackContainer'>
             <span>LAMP</span>
-            <img src="/img/apache.png" alt="apache" />
             <img src="/img/linux.jpg" alt="linux" />
+            <img src="/img/apache.png" alt="apache" />
             <img src="/img/mysql.png" alt="mysql" />
             <img src="/img/php.png" alt="php" />
         </div>
@@ -64,7 +64,66 @@ return(
             <img src="/img/mysql.png" alt="mysql" />
         </div>
 
+        <div className='stackContainer'>
+            <span>Ruby on<br />Rails</span>
+            <img src="/img/react.png" alt="react" />
+            <img src="/img/ruby.png" alt="ruby" />
+            <img src="/img/mysql.png" alt="mysql" />
+        </div>
+
+        <div className='stackContainer'>
+            <span>ASP.Net</span>
+            <img src="/img/csharp.png" alt="C#" />
+            <img src="/img/react.png" alt="react" />
+            <img src="/img/sql.png" alt="sql" />
+            <img src="/img/azure.png" alt="azure" />
+        </div>
     </section>
+    <p>
+        Based on these differences, the choice between Ruby on Rails and Express will 
+        depend on the specific needs of your project. If you need to build a high-performance
+        web application and have experience with JavaScript, Express may be the better choice.
+        On the other hand, if you want a more opinionated framework that's easier to use and has
+        a larger community, Ruby on Rails may be the way to go.
+    </p>
+
+<h2>E-Commerce</h2>
+<section className='staticSection'>
+    <div className='eCommerceContainer'>
+        <img src="/img/woocommerce.png" alt="woocommerce" />
+    </div>
+
+    <div className='eCommerceContainer'>
+        <img src="/img/wp.png" alt="wordpress" />
+    </div>
+
+    <div className='eCommerceContainer'>
+        <img src="/img/shopify.png" alt="shopify" />
+    </div>
+
+    <div className='eCommerceContainer'>
+        <img src="/img/magento.png" alt="magento" />
+    </div>
+
+    <div className='eCommerceContainer'>    
+        <img src="/img/openCart.png" alt="opencart" />
+    </div>
+
+    <div className='eCommerceContainer'>
+        <img src="/img/prestaShop.png" alt="prestaShop" />    
+    </div>
+
+    <div className='eCommerceContainer'>    
+        <img src="/img/bigCommerce.png" alt="bigCommerce" />
+    </div>
+
+</section>
+
+<p>
+    These are just a few examples of the tech solutions that can be used
+    to create an e-commerce website. Each platform has its own strengths and weaknesses, so
+    it's important to evaluate each one carefully before making a decision.
+</p>
 
 </>
 )

@@ -11,12 +11,15 @@ h1,h2{
     margin-top: 2rem;
 }
 .staticSection{
+    
     width: 90%;
-    margin: auto;
+    margin:1rem auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     gap:1rem;
+    flex-wrap: wrap;
+
 }
 .stackContainer{
     border: 2px solid white;
@@ -37,4 +40,14 @@ h1,h2{
     text-align: center;
     font-size: larger;
     font-weight: bold;
+}
+.eCommerceContainer{
+    background-color: white;
+    padding: 1rem;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+}   
+.eCommerceContainer img{
+    width: 7rem;
 }
