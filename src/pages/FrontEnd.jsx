@@ -5,8 +5,8 @@ export default function FrontEnd(){
 
 return(
 <>
-<div className="frontEndContainer">
-   {/* animate the keyword, on loading, random letters */}
+<div className="sectionWrapper">
+   
    <div className="sectionHeader" >
       FrontEnd developer
    </div>
