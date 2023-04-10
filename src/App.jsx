@@ -27,8 +27,8 @@ return(
     <div className='footer'>
         <hr/>
         <Link to='https://github.com/CharbelBG' target={'_blank'} >Created by Charbel Bou Ghazalé</Link>
-        <Link to='https://www.instagram.com/theresa_abiaad/' target={'_blank'}>and Marie Therese Abi Aad</Link>  
-    </div> 
+        <Link to='https://www.linkedin.com/in/theresa-abi-aad-2815b7271/' target={'_blank'}>and Marie Therese Abi Aad</Link>  
+    </div>
 </>
 )
 }
